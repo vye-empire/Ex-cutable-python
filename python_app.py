@@ -1,9 +1,11 @@
+#Importation des différentes bibliothèque nécessaire au bon fonctionnement du code
 import tkinter as tk
 from tkinter import messagebox, ttk
 from tkinter.filedialog import*
 import csv
 import tkinter.font as tkfont
 
+#Création d'une classe de données géographique
 class Donnee:
     """
     Classe représentant une donnée géographique.
@@ -226,3 +228,4 @@ def creer_interface():
 # Exécution du programme
 if __name__ == "__main__":
     creer_interface()
+
